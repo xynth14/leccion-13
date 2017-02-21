@@ -18,7 +18,7 @@
 		</div>
 		<div class="marginDiv">
 			<label for="telefono">Número de Teléfono</label><br>
-			<input id="telefono" type="number" required="required">
+			<input id="telefono" type="tel" required="required" pattern="[0-9]{9}" maxlength="9">
 		</div>
 		<div class="marginDiv">
 			<label for="dropdown">Dropdown</label><br>
@@ -32,7 +32,7 @@
 		</div>
 		<div class="marginDiv">
 			<label for="email">Email</label><br>
-			<input id="email" type="email" required="required">
+			<input id="email" type="email" required="required" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}">
 		</div>
 		<div class="marginDiv">
 			<label for="contrasena">Contraseña</label><br>
