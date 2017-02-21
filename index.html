@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario de Datos</title>
+	<link rel="stylesheet" href="assets/css/css.css">
+</head>
+<body>
+<h1>Formulario de Datos</h1>
+	<form action="">
+		<div class="marginDiv">
+			<label for="nombre">Nombre</label><br>
+			<input id="nombre" type="text" required="required">
+		</div>
+		<div class="marginDiv">
+			<label for="apellido">Apellido</label><br>
+			<input id="apellido" type="text" required="required">
+		</div>
+		<div class="marginDiv">
+			<label for="telefono">Número de Teléfono</label><br>
+			<input id="telefono" type="number" required="required">
+		</div>
+		<div class="marginDiv">
+			<label for="dropdown">Dropdown</label><br>
+			<select name="dropdown" id="dropdown" required="required">
+				<option value="">Escoge tu carro</option>
+				<option value="1">Volvo</option>
+				<option value="2">Saab</option>
+				<option value="3">Merces</option>
+				<option value="3">Audi</option>
+			</select>
+		</div>
+		<div class="marginDiv">
+			<label for="email">Email</label><br>
+			<input id="email" type="email" required="required">
+		</div>
+		<div class="marginDiv">
+			<label for="contrasena">Contraseña</label><br>
+			<input id="contrasena" type="password" required="required" minlength="6">
+		</div>
+		<div class="marginDiv">
+			<button type="submit" type="text">Enviar</button>
+		</div>
+	</form>
+</body>
+</html>
